@@ -2,15 +2,12 @@
 package org.edu.msd;
 
 /**
- * Description: 
+ * Description:
  * Author: mohpreetsingh
  * Date: 08-06-2024 05:59 pm
  */
 public class Main {
 
-    /**
-     *
-     */
     public static void generateMessages(){
         System.out.printf("Hello and welcome!");
 
