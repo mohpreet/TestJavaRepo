@@ -1,9 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 package org.edu.msd;
 
-
+/**
+ * Description: 
+ * Author: mohpreetsingh
+ * Date: 08-06-2024 05:59 pm
+ */
 public class Main {
+
+    /**
+     *
+     */
     public static void generateMessages(){
         System.out.printf("Hello and welcome!");
 
