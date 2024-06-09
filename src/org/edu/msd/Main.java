@@ -9,12 +9,11 @@ package org.edu.msd;
 public class Main {
 
     public static void generateMessages(){
-        System.out.printf("Hello and welcome!");
-
+        System.out.print("Hello and welcome!, Iterations Start");
         for (int itr = 1; itr <= 110; itr++) {
             System.out.println("This is itr = " + itr);
         }
-        System.out.println("This is done/...");
+        System.out.println("This is done, Iterations End");
     }
     public static void main(String[] args) {
         generateMessages();
