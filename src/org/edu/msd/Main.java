@@ -17,7 +17,17 @@ public class Main {
         System.out.println("This is done, Iterations Ended");
         System.out.print("--------------------------------------");
     }
+
+    public static void createEmployee(){
+        Employee employee = new Employee(1001,"MSD",1001,234567.0);
+        employee.printDetails();
+    }
+
     public static void main(String[] args) {
+        System.out.println("Main started");
         generateMessages();
+        createEmployee();
+
+        System.out.println("Main completed");
     }
 }
