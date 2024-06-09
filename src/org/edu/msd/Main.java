@@ -24,10 +24,15 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Main started");
+        System.out.println("**Main started**");
+        System.out.println("Testing Generate Message....");
+        System.out.println("---------------------------");
         generateMessages();
+
+        System.out.println("Testing Create Employee");
+        System.out.println("---------------------------");
         createEmployee();
 
-        System.out.println("Main completed");
+        System.out.println("**Main completed**");
     }
 }
